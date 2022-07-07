@@ -9,11 +9,10 @@ const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const App= ()=>{
-  const [user, setUser] = useState();
-
+  const [user, setUser] = useState('');
 
   const LogIn=()=>{
-    const [userName,setUserName]=useState();
+    const [userName,setUserName]=useState('');
     const [password,setPassword]=useState('');
 
     useEffect(() => {
