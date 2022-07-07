@@ -9,9 +9,9 @@ import {
 const Home=(props)=>{
   return(
     <View style={{justifyContent:'center',alignItems:"center",flex:1}}>
-        <Text style={{margin:20}}>
-          {props.name}
-        </Text>
+      <Text style={{margin:20}}>
+        {props.name}
+      </Text>
     </View>
   )
 }
