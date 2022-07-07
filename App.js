@@ -67,8 +67,6 @@ const App= ()=>{
     )
   }
 
-  
-
   const removeNickname = async () => {
     try {
       await AsyncStorage.removeItem("user");
