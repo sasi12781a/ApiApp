@@ -6,11 +6,11 @@ import {
 } from 'react-native';
 
 
-const Home=()=>{
+const Home=(props)=>{
   return(
     <View style={{justifyContent:'center',alignItems:"center",flex:1}}>
         <Text style={{margin:20}}>
-          sasi
+          {props.name}
         </Text>
     </View>
   )

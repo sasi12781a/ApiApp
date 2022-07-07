@@ -82,7 +82,7 @@ const App= ()=>{
   if (user){
     return(
       <View style={{flex:1,alignItems:'center',justifyContent:'center'}}>
-        <Home/>
+        <Home name={user}/>
         <View style={{margin:30}}>
           <Button title='SignOut' onPress={removeNickname}>
           </Button>
