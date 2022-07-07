@@ -1,10 +1,6 @@
 import React,{useEffect} from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import {
-  View,
-  ScrollView,Text,Button
-} from 'react-native';
-
+import {View,Text,} from 'react-native';
 
 const Home=(props)=>{
   return(
